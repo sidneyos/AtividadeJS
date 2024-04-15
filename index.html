@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade JS</title>
+    <link rel="shortcut icon" href="js.ico" type="image/x-icon">
+        <script src="script.js"></script>
+        <style>
+            p{
+                font-weight: bold;
+            }
+            button{
+                padding: 15px;
+                background-color:bisque;
+                color: black;
+                cursor: pointer;
+                border-radius: 5px;
+                font-weight: bold;
+                display: block;
+            }
+        </style>
+</head>
+<body>
+    <p>Óla mundo</p>
+   <button onclick="exemplo1(); return false">clique aqui</button>
+   <p>Soma de 2 números</p>
+   <button onclick="exemplo2(); return false">clique aqui</button>
+   <p>Alteração de elemento por id</p>
+   <button id="id" onclick="exemplo3(); return false">clique aqui</button>
+   <p>Alteração de elemento por name</p>
+   <button name="name" onclick="exemplo4(); return false">clique aqui</button>
+   <p>Alteração de elemento por class</p>
+   <button class="class" onclick="exemplo5(); return false">clique aqui</button>
+</body>
+</html>
